@@ -37,7 +37,6 @@ import {
   FiHome,
   FiTrendingUp,
   FiStar,
-  FiSettings,
   FiMenu,
   FiBell,
   FiChevronDown,
@@ -60,7 +59,7 @@ const LinkItems = [
     route: "/Cadastramentodeusuário",
   },
   { name: "Incluir indicadores", icon: FiStar, route: "/administracao" },
-  { name: "Configurações", icon: FiSettings, route: "" },
+ 
 ];
 
 const SidebarContent = ({ onClose, onOpenHelpForm, ...rest }) => {
